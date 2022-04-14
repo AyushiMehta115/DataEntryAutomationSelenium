@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+  <div class="nativeDatePicker">
+    <label for="bday">Enter your birthday:</label>
+    <input type="date" id="bday" name="bday">
+    <span class="validity"></span>
+  </div>
+  <p class="fallbackLabel">Enter your birthday:</p>
+  <div class="fallbackDatePicker">
+    <span>
+      <label for="day">Day:</label>
+      <select id="day" name="day">
+      </select>
+    </span>
+    <span>
+      <label for="month">Month:</label>
+      <select id="month" name="month">
+        <option selected>January</option>
+        <option>February</option>
+        <option>March</option>
+        <option>April</option>
+        <option>May</option>
+        <option>June</option>
+        <option>July</option>
+        <option>August</option>
+        <option>September</option>
+        <option>October</option>
+        <option>November</option>
+        <option>December</option>
+      </select>
+    </span>
+    <span>
+      <label for="year">Year:</label>
+      <select id="year" name="year">
+      </select>
+    </span>
+  </div>
+</form>
+
+<h1>Show Checkboxes</h1>
+
+<form action="">
+What is your favourite programming language?<br><br>
+<input type="checkbox" name="lang" value="Java"> Java<br>
+
+<input type="checkbox" name="lang" value="C"> C<br>
+
+<input type="checkbox" name="lang" value="C++"> C++<br>
+
+<input type="checkbox" name="lang" value="PHP"> PHP<br>
+
+<input type="checkbox" name="lang" value="Python"> Python<br>
+</form><br><br>
+
+<form action="">
+What is your favourite operating system?<br><br>
+<input type="checkbox" name="os" value="Linux"> Linux<br>
+
+<input type="checkbox" name="os" value="Windows"> Windows<br>
+
+<input type="checkbox" name="os" value="Mac OSX"> Mac OSX<br>
+
+</form><br><br>
+
+<form action="">
+What is your favourite IDE?<br><br>
+<input type="checkbox" name="ide" value="IntelliJ IDEA"> IntelliJ IDEA<br>
+
+<input type="checkbox" name="color" value="Eclipse IDE"> Eclipse IDE<br>
+
+<input type="checkbox" name="color" value="Netbeans IDE"> Netbeans IDE<br>
+
+</form>
+
+</body>
+</html>
